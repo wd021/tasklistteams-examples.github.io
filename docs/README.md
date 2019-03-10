@@ -6,7 +6,7 @@ TaskList is a task manager for your Microsoft Teams team. Here's a guide on how 
 
 ## Add Tasks
 
-Use **`task`** to add a task in Microsoft Teams. Add **`#tags`** to categorize them.
+Use **`task`** to add a task. Add **`#tags`** to categorize them.
 
 ```examples
 task Discuss new design plans! #design #demo
