@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Examples | TaskList For Microsoft Teams</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="shortcut icon" href="https://www.tasklistforteams.com/favicon.ico">
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    body.no-sidebar .sidebar,
+    body.no-sidebar .sidebar-toggle {
+        display: none !important;
+    }
+
+    body.no-sidebar .content {
+        left: 0px !important;
+    }
+  </style>
 </head>
-<body>
+<body class="no-sidebar">
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      themeColor: '#0075af',
+      subMaxLevel: 1
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
