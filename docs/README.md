@@ -4,7 +4,7 @@
 TaskList is a task manager for your Microsoft Teams team. Here's a guide on how to use it.
 </h5>
 
-?> Remember, you must add the TaskList bot to a team in your **teams** section. Every team member has access to the same commands.
+?> Remember, you must add the TaskList bot as a **personal** bot or **team** bot. **@user** tags are only applicable in teams.
 
 ## Add Tasks
 
